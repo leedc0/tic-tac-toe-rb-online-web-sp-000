@@ -120,7 +120,7 @@ end
 #
 def play(board)
   turn(board)
-  until over?(board) == true do
+  until over?(board) do
     turn(board)
   end
     # if won?(board) == true
