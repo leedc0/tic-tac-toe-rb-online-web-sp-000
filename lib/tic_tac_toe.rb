@@ -119,8 +119,7 @@ end
 
 #
 def play(board)
-  turn(board)
-  until over?(board) do
+  until over?(board)
     turn(board)
   end
     # if won?(board) == true
